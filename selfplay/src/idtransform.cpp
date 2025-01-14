@@ -13,6 +13,7 @@ int GetIdByAction(std::vector<int>& action) {
 }
 
 void InitIdTransform() {
+	// {棋子类型，棋子编号，x偏移，y偏移}
 	id_to_action[0] = { 4, 1, 0, -1 };
 	id_to_action[1] = { 4, 1, 0, 1 };
 	id_to_action[2] = { 4, 1, -1, 0 };
